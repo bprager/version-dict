@@ -1,0 +1,9 @@
+{
+    "version": "0.2",
+    "ignorePaths": ["*.py", "xpath*.json"],
+    "dictionaryDefinitions": [],
+    "dictionaries": [],
+    "words": [],
+    "ignoreWords": [],
+    "import": []
+}

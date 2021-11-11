@@ -1,0 +1,73 @@
+[[package]]
+name = "autopep8"
+version = "1.6.0"
+description = "A tool that automatically formats Python code to conform to the PEP 8 style guide"
+category = "dev"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+pycodestyle = ">=2.8.0"
+toml = "*"
+
+[[package]]
+name = "parsley"
+version = "1.3"
+description = "Parsing and pattern matching made easy."
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "pep508-parser"
+version = "2019.3"
+description = "A parser for the PEP508 dependency specification."
+category = "main"
+optional = false
+python-versions = "!=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, <4"
+
+[package.dependencies]
+Parsley = "1.3"
+
+[[package]]
+name = "pycodestyle"
+version = "2.8.0"
+description = "Python style guide checker"
+category = "dev"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
+
+[[package]]
+name = "toml"
+version = "0.10.2"
+description = "Python Library for Tom's Obvious, Minimal Language"
+category = "dev"
+optional = false
+python-versions = ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.8"
+content-hash = "dfe8cd536d4ce29d79057ef92e5b659fe5b747775339bdb24646b72a42bc888a"
+
+[metadata.files]
+autopep8 = [
+    {file = "autopep8-1.6.0-py2.py3-none-any.whl", hash = "sha256:ed77137193bbac52d029a52c59bec1b0629b5a186c495f1eb21b126ac466083f"},
+    {file = "autopep8-1.6.0.tar.gz", hash = "sha256:44f0932855039d2c15c4510d6df665e4730f2b8582704fa48f9c55bd3e17d979"},
+]
+parsley = [
+    {file = "Parsley-1.3-py2.py3-none-any.whl", hash = "sha256:c3bc417b8c7e3a96c87c0f2f751bfd784ed5156ffccebe2f84330df5685f8dc3"},
+    {file = "Parsley-1.3.tar.gz", hash = "sha256:9444278d47161d5f2be76a767809a3cbe6db4db822f46a4fd7481d4057208d41"},
+]
+pep508-parser = [
+    {file = "pep508_parser-2019.3-py3-none-any.whl", hash = "sha256:4a86bc54cc4a848ef0a45fd8e1de26d4959a19d0e0b21cf99fd3681029d1aff7"},
+    {file = "pep508_parser-2019.3.tar.gz", hash = "sha256:f4bec9d1b0485ba70803c8e84ae741edb1de9af9932a6454cf12853aa43dbda9"},
+]
+pycodestyle = [
+    {file = "pycodestyle-2.8.0-py2.py3-none-any.whl", hash = "sha256:720f8b39dde8b293825e7ff02c475f3077124006db4f440dcbc9a20b76548a20"},
+    {file = "pycodestyle-2.8.0.tar.gz", hash = "sha256:eddd5847ef438ea1c7870ca7eb78a9d47ce0cdb4851a5523949f2601d0cbbe7f"},
+]
+toml = [
+    {file = "toml-0.10.2-py2.py3-none-any.whl", hash = "sha256:806143ae5bfb6a3c6e736a764057db0e6a0e05e338b5630894a5f779cabb4f9b"},
+    {file = "toml-0.10.2.tar.gz", hash = "sha256:b3bda1d108d5dd99f4a20d24d9c348e91c4db7ab1b749200bded2f839ccbe68f"},
+]

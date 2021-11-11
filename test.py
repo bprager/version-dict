@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 import os
+
 from dotenv import load_dotenv
+
+import version_dict
 
 
 def main():
