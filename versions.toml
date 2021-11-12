@@ -1,5 +1,6 @@
 # version dependend configurations
-
+[location]
+files="./files"
 [files]
 # dictionary in files will only be merged if the version complies
 # format "file name" = "pep508 version range"
