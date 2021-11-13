@@ -1,3 +1,0 @@
-{
-  "ContinueWithFacebook": "//XCUIElementTypeApplication[@name=\"SmartCast\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[3]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeButton"
-}

@@ -8,7 +8,7 @@ import version_dict
 
 def main():
     load_dotenv()
-    print(os.getenv('SMARTCAST_VERSION'))
+    print(os.getenv('FOR_VERSION'))
 
 
 if __name__ == '__main__':

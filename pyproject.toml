@@ -7,6 +7,9 @@ authors = ["Bernd Prager <bernd@prager.ws>"]
 [tool.poetry.dependencies]
 python = "^3.8"
 pep508-parser = "^2019.3"
+toml = "^0.10.2"
+pep508 = "^0.1"
+packaging = "^21.2"
 
 [tool.poetry.dev-dependencies]
 autopep8 = "^1.6.0"

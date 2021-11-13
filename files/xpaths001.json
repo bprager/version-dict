@@ -1,4 +1,0 @@
-{
-  "ContinueAsGuest": "//XCUIElementTypeStaticText[@name=\"Continue as a Guest\"]",
-  "ContinueWithApple": "//XCUIElementTypeButton[@name=\"apple signin circle\"]"
-}
