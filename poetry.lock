@@ -22,33 +22,6 @@ python-versions = ">=3.6"
 pyparsing = ">=2.0.2,<3"
 
 [[package]]
-name = "parsley"
-version = "1.3"
-description = "Parsing and pattern matching made easy."
-category = "main"
-optional = false
-python-versions = "*"
-
-[[package]]
-name = "pep508"
-version = "0.1"
-description = ""
-category = "main"
-optional = false
-python-versions = "*"
-
-[[package]]
-name = "pep508-parser"
-version = "2019.3"
-description = "A parser for the PEP508 dependency specification."
-category = "main"
-optional = false
-python-versions = "!=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, <4"
-
-[package.dependencies]
-Parsley = "1.3"
-
-[[package]]
 name = "pycodestyle"
 version = "2.8.0"
 description = "Python style guide checker"
@@ -75,7 +48,7 @@ python-versions = ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "6570b56311ff7a5b6115c07c87b2b8ced55a5e7ecfd0a4a03be279afd203400c"
+content-hash = "2c09d162461dc7e0af2cb720e60dc2adca8a8730c17ce97f977c9525b7e8e540"
 
 [metadata.files]
 autopep8 = [
@@ -85,17 +58,6 @@ autopep8 = [
 packaging = [
     {file = "packaging-21.2-py3-none-any.whl", hash = "sha256:14317396d1e8cdb122989b916fa2c7e9ca8e2be9e8060a6eff75b6b7b4d8a7e0"},
     {file = "packaging-21.2.tar.gz", hash = "sha256:096d689d78ca690e4cd8a89568ba06d07ca097e3306a4381635073ca91479966"},
-]
-parsley = [
-    {file = "Parsley-1.3-py2.py3-none-any.whl", hash = "sha256:c3bc417b8c7e3a96c87c0f2f751bfd784ed5156ffccebe2f84330df5685f8dc3"},
-    {file = "Parsley-1.3.tar.gz", hash = "sha256:9444278d47161d5f2be76a767809a3cbe6db4db822f46a4fd7481d4057208d41"},
-]
-pep508 = [
-    {file = "pep508-0.1.tar.gz", hash = "sha256:ffab7a4298bf1c3641aa91b1d41d537ee93d87aa0cabd5bf797dcb5c9604514e"},
-]
-pep508-parser = [
-    {file = "pep508_parser-2019.3-py3-none-any.whl", hash = "sha256:4a86bc54cc4a848ef0a45fd8e1de26d4959a19d0e0b21cf99fd3681029d1aff7"},
-    {file = "pep508_parser-2019.3.tar.gz", hash = "sha256:f4bec9d1b0485ba70803c8e84ae741edb1de9af9932a6454cf12853aa43dbda9"},
 ]
 pycodestyle = [
     {file = "pycodestyle-2.8.0-py2.py3-none-any.whl", hash = "sha256:720f8b39dde8b293825e7ff02c475f3077124006db4f440dcbc9a20b76548a20"},
