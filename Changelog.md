@@ -11,4 +11,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial version
 
+## [0.1.1] - 2021-11-13
+### Added
+- JSON file loading with Python packaging version constraint
+- Actual dictionary merge
+- Initial unit tests
+
 

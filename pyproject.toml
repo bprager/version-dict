@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "version-dict"
-version = "0.1.0"
+version = "0.1.1"
 description = "Create a dictionary from file(s) depending on version"
 authors = ["Bernd Prager <bernd@prager.ws>"]
 

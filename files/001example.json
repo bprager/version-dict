@@ -1,4 +1,4 @@
 {
-  "key01": "//XCUIElementTypeStaticText[@name=\"value01\"]",
-  "key02": "//XCUIElementTypeButton[@name=\"value02\"]"
+  "key01": "value01",
+  "key02": "value02"
 }
