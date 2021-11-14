@@ -3,6 +3,7 @@
 files="./files"
 [files]
 # dictionary in files will only be merged if the version complies
-# format "file name" = "pep-508/pep-440 version range"
+# format "file name" = "pep-0440 version specifiers"
+# see also https://www.python.org/dev/peps/pep-0440/#toc-entry-33
 "001example.json" = ">=1.2.3"
 "002example.json" = ">=1.2.4,<3.2"

@@ -10,11 +10,14 @@ FILE_NAME = 'versions.toml'
 def create_dict(current_version='') -> dict:
     if current_version == '':
         current_version = version.Version(os.getenv('FOR_VERSION'))
-    dict_files = toml.load(FILE_NAME)
-    location = dict_files['location']['files']
-
+    configuration = toml.load(FILE_NAME)
+    # files location
+    location = configuration['location']['files']
+    # sorted file names
+    file_names = sorted(configuration['files'])
     vers_dict = {}
-    for file_name, target_version in dict_files['files'].items():
+    for file_name in file_names:
+        target_version = configuration['files'][file_name]
         if specifiers.SpecifierSet(target_version).contains(current_version):
             with open(f'{location}/{file_name}') as json_file:
                 dict_to_add = json.load(json_file)
