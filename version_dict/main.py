@@ -14,9 +14,8 @@ def create_dict(current_version='') -> dict:
     # files location
     location = configuration['location']['files']
     # sorted file names
-    file_names = sorted(configuration['files'])
     vers_dict = {}
-    for file_name in file_names:
+    for file_name, target_version in configuration['files'].items():
         target_version = configuration['files'][file_name]
         if specifiers.SpecifierSet(target_version).contains(current_version):
             with open(f'{location}/{file_name}') as json_file:
