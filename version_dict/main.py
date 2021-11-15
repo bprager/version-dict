@@ -13,8 +13,8 @@ def create_dict(current_version='') -> dict:
     configuration = toml.load(FILE_NAME)
     # files location
     location = configuration['location']['files']
-    # sorted file names
     vers_dict = {}
+    # merge dictionary from relevant files
     for file_name, target_version in configuration['files'].items():
         target_version = configuration['files'][file_name]
         if specifiers.SpecifierSet(target_version).contains(current_version):
