@@ -1,0 +1,7 @@
+{
+  "continue_with_google": [["id", "button_google_text"], ["xpath", "//*[@name=\"Sign in with Google\"]/../XCUIElementTypeButton"]],
+  "sign_in_with_facebook": [["id", "N/A to Android"], ["xpath", "//*[@name=\"Sign in with Facebook\"]/../XCUIElementTypeButton"]],
+  "continue_with_apple": [["id", "N/A to Android"], ["xpath", "//*[@name=\"Sign in with Apple\"]/../XCUIElementTypeButton"]],
+  "create_an_account": [[["id", "myvizio_welcome_create_account_button"], ["xpath", "//XCUIElementTypeButton[@name=\"Create an Account\"]"]]],
+  "vizio_sign_in": [["id", "myvizio_welcome_sign_in"], ["xpath", "//XCUIElementTypeButton[@name=\"Sign In\"]"]]
+}

@@ -1,0 +1,7 @@
+{
+"continue_with_google": [["id", "button_google_text"], ["id", "createAccountView-signInWithGoogle-signInWithGoogleView"]],
+"sign_in_with_facebook": [["id", "N/A to Android"], ["id", "createAccountView-signInWithFacebook-signInWithFacebookView"]],
+"continue_with_apple": [["id", "N/A to Android"], ["id", "createAccountView-signInWithApple-signInWithAppleView"]],
+"create_an_account": [["id", "myvizio_welcome_create_account_button"], ["id", "createAccountView-createAccoun-createAccountButton"]],
+"vizio_sign_in": [["id", "myvizio_welcome_sign_in"], ["id", "createAccountView-vizioSignin-signInButton"]]
+}

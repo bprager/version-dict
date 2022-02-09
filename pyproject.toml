@@ -5,9 +5,11 @@ description = "Create a dictionary from file(s) depending on version"
 authors = ["Bernd Prager <bernd@prager.ws>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "3.8"
 toml = "^0.10.2"
 packaging = "^21.2"
+python-dotenv = "^0.19.2"
+Appium-Python-Client = "^2.1.2"
 
 [tool.poetry.dev-dependencies]
 autopep8 = "^1.6.0"

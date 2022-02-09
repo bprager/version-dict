@@ -1,0 +1,4 @@
+{
+"current_date": "The current date is %s",
+"vizio_sign_in": [["%(MobileBy.ID)s", "myvizio_welcome_sign_in"], ["%(MobileBy.ID)s", "createAccountView-vizioSignin-signInButton"]]
+}
